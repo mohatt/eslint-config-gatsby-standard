@@ -24,6 +24,10 @@
     "__PATH_PREFIX__": true
   },
   "settings": {
-    "import/core-modules": []
+    "import/core-modules": [],
+    "react": {
+      "version": "detect"
+    }
   }
 }
+
