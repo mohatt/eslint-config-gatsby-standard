@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "standard",
+    "standard-jsx",
+    "plugin:import/errors",
+    "prettier",
+    "prettier/babel",
+    "prettier/react",
+    "prettier/standard"
+  ],
+  "plugins": ["import", "graphql"],
+  "parser": "babel-eslint",
+  "rules": {
+    "import/no-webpack-loader-syntax": [0]
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "globals": {
+    "graphql": true,
+    "__PATH_PREFIX__": true
+  },
+  "settings": {
+    "import/core-modules": []
+  }
+}
