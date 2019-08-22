@@ -1,6 +1,6 @@
 {
   "name": "@mohatt/eslint-config-gatsby-standard",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Yet another eslint config to be used for Gatsby projects",
   "main": ".eslintrc.json",
   "files": [
@@ -25,7 +25,7 @@
   "homepage": "https://github.com/mohatt/eslint-config-gatsby-standard",
   "bugs": "https://github.com/mohatt/eslint-config-gatsby-standard/issues",
   "dependencies": {
-    "babel-eslint": "^9.0.0",
+    "babel-eslint": "^10.0.2",
     "eslint-config-prettier": "^6.1.0",
     "eslint-config-standard": "^14.0.0",
     "eslint-config-standard-jsx": "^8.0.0",
