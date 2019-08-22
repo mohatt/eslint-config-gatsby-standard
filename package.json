@@ -1,6 +1,6 @@
 {
   "name": "@mohatt/eslint-config-gatsby-standard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yet another eslint config to be used for Gatsby projects",
   "main": ".eslintrc.json",
   "files": [
