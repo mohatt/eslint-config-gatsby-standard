@@ -26,7 +26,7 @@
   "bugs": "https://github.com/mohatt/eslint-config-gatsby-standard/issues",
   "dependencies": {
     "babel-eslint": "^10.0.2",
-    "eslint-config-prettier": "^6.1.0",
+    "eslint-config-prettier": "^7.0.0",
     "eslint-config-standard": "^14.0.0",
     "eslint-config-standard-jsx": "^8.0.0",
     "eslint-plugin-import": "^2.18.2",
