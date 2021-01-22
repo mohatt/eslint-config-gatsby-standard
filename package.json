@@ -37,7 +37,7 @@
     "eslint-plugin-graphql": "^3.0.3"
   },
   "devDependencies": {
-    "eslint": "6.2.2"
+    "eslint": "7.18.0"
   },
   "peerDependencies": {
     "eslint": ">=5.6"
