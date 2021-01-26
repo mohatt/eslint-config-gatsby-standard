@@ -1,6 +1,6 @@
 {
   "name": "@mohatt/eslint-config-gatsby-standard",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Yet another eslint config to be used for Gatsby projects",
   "main": ".eslintrc.json",
   "files": [
@@ -26,21 +26,21 @@
   "bugs": "https://github.com/mohatt/eslint-config-gatsby-standard/issues",
   "dependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-config-standard-jsx": "^8.1.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-node": "^11.0.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-config-standard-jsx": "^10.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-standard": "^4.0.1",
     "eslint-plugin-graphql": "^4.0.0"
   },
   "devDependencies": {
-    "eslint": "6.8.0",
+    "eslint": "7.18.0",
     "graphql": "^14.6.0"
   },
   "peerDependencies": {
-    "eslint": ">=6.2"
+    "eslint": ">=7.1.0"
   }
 }
