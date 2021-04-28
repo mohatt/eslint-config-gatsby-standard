@@ -2,14 +2,23 @@
   "extends": [
     "standard",
     "standard-jsx",
+    "plugin:react-hooks/recommended",
     "plugin:import/errors",
-    "prettier",
-    "prettier/babel",
-    "prettier/react",
-    "prettier/standard"
+    "prettier"
   ],
   "plugins": ["import", "graphql"],
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "babelOptions": {
+      "presets": ["babel-preset-gatsby"]
+    },
+    "requireConfigFile": false
+  },
   "rules": {
     "import/no-webpack-loader-syntax": [0],
     "react/no-children-prop": "off"
