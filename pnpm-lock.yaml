@@ -10,7 +10,7 @@ specifiers:
   eslint-plugin-graphql: ^4.0.0
   eslint-plugin-import: ^2.22.1
   eslint-plugin-node: ^11.1.0
-  eslint-plugin-promise: ^5.1.0
+  eslint-plugin-promise: ^6.0.0
   eslint-plugin-react: ^7.23.2
   eslint-plugin-react-hooks: ^4.2.0
   eslint-plugin-standard: ^4.1.0
@@ -20,12 +20,12 @@ dependencies:
   '@babel/core': 7.13.16
   '@babel/eslint-parser': 7.13.14_898a7a025c5413b619a892ba97f73e55
   eslint-config-prettier: 8.3.0_eslint@7.25.0
-  eslint-config-standard: 16.0.2_dbb66363a00e743187031beaaf2d298e
+  eslint-config-standard: 16.0.2_a26d622e1d04f408b46efd4d7db6b06c
   eslint-config-standard-jsx: 10.0.0_6d40e84de1aedc73728110505e7304ea
   eslint-plugin-graphql: 4.0.0_graphql@15.5.0
   eslint-plugin-import: 2.22.1_eslint@7.25.0
   eslint-plugin-node: 11.1.0_eslint@7.25.0
-  eslint-plugin-promise: 5.1.0_eslint@7.25.0
+  eslint-plugin-promise: 6.0.0_eslint@7.25.0
   eslint-plugin-react: 7.23.2_eslint@7.25.0
   eslint-plugin-react-hooks: 4.2.0_eslint@7.25.0
   eslint-plugin-standard: 4.1.0_eslint@7.25.0
@@ -1280,7 +1280,7 @@ packages:
       eslint-plugin-react: 7.23.2_eslint@7.25.0
     dev: false
 
-  /eslint-config-standard/16.0.2_dbb66363a00e743187031beaaf2d298e:
+  /eslint-config-standard/16.0.2_a26d622e1d04f408b46efd4d7db6b06c:
     resolution: {integrity: sha512-fx3f1rJDsl9bY7qzyX8SAtP8GBSk6MfXFaTfaGgk12aAYW4gJSyRm7dM790L6cbXv63fvjY4XeSzXnb4WM+SKw==}
     peerDependencies:
       eslint: ^7.12.1
@@ -1291,7 +1291,7 @@ packages:
       eslint: 7.25.0
       eslint-plugin-import: 2.22.1_eslint@7.25.0
       eslint-plugin-node: 11.1.0_eslint@7.25.0
-      eslint-plugin-promise: 5.1.0_eslint@7.25.0
+      eslint-plugin-promise: 6.0.0_eslint@7.25.0
     dev: false
 
   /eslint-import-resolver-node/0.3.4:
@@ -1374,11 +1374,11 @@ packages:
       semver: 6.3.0
     dev: false
 
-  /eslint-plugin-promise/5.1.0_eslint@7.25.0:
-    resolution: {integrity: sha512-NGmI6BH5L12pl7ScQHbg7tvtk4wPxxj8yPHH47NvSmMtFneC077PSeY3huFj06ZWZvtbfxSPt3RuOQD5XcR4ng==}
-    engines: {node: ^10.12.0 || >=12.0.0}
+  /eslint-plugin-promise/6.0.0_eslint@7.25.0:
+    resolution: {integrity: sha512-7GPezalm5Bfi/E22PnQxDWH2iW9GTvAlUNTztemeHb6c1BniSyoeTrM87JkC0wYdi6aQrZX9p2qEiAno8aTcbw==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
-      eslint: ^7.0.0
+      eslint: ^7.0.0 || ^8.0.0
     dependencies:
       eslint: 7.25.0
     dev: false
