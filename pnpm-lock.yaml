@@ -6,7 +6,7 @@ specifiers:
   eslint: 7.25.0
   eslint-config-prettier: ^8.3.0
   eslint-config-standard: ^16.0.2
-  eslint-config-standard-jsx: ^10.0.0
+  eslint-config-standard-jsx: ^11.0.0
   eslint-plugin-graphql: ^4.0.0
   eslint-plugin-import: ^2.22.1
   eslint-plugin-node: ^11.1.0
@@ -21,7 +21,7 @@ dependencies:
   '@babel/eslint-parser': 7.13.14_898a7a025c5413b619a892ba97f73e55
   eslint-config-prettier: 8.3.0_eslint@7.25.0
   eslint-config-standard: 16.0.2_dbb66363a00e743187031beaaf2d298e
-  eslint-config-standard-jsx: 10.0.0_6d40e84de1aedc73728110505e7304ea
+  eslint-config-standard-jsx: 11.0.0_6d40e84de1aedc73728110505e7304ea
   eslint-plugin-graphql: 4.0.0_graphql@15.5.0
   eslint-plugin-import: 2.22.1_eslint@7.25.0
   eslint-plugin-node: 11.1.0_eslint@7.25.0
@@ -1270,11 +1270,11 @@ packages:
       eslint: 7.25.0
     dev: false
 
-  /eslint-config-standard-jsx/10.0.0_6d40e84de1aedc73728110505e7304ea:
-    resolution: {integrity: sha512-hLeA2f5e06W1xyr/93/QJulN/rLbUVUmqTlexv9PRKHFwEC9ffJcH2LvJhMoEqYQBEYafedgGZXH2W8NUpt5lA==}
+  /eslint-config-standard-jsx/11.0.0_6d40e84de1aedc73728110505e7304ea:
+    resolution: {integrity: sha512-+1EV/R0JxEK1L0NGolAr8Iktm3Rgotx3BKwgaX+eAuSX8D952LULKtjgZD3F+e6SvibONnhLwoTi9DPxN5LvvQ==}
     peerDependencies:
-      eslint: ^7.12.1
-      eslint-plugin-react: ^7.21.5
+      eslint: ^8.8.0
+      eslint-plugin-react: ^7.28.0
     dependencies:
       eslint: 7.25.0
       eslint-plugin-react: 7.23.2_eslint@7.25.0
