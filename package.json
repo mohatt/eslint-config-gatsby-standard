@@ -1,6 +1,6 @@
 {
   "name": "@mohatt/eslint-config-gatsby-standard",
-  "version": "3.2.0",
+  "version": "4.0.0",
   "description": "Yet another eslint config to be used for Gatsby projects",
   "main": ".eslintrc.json",
   "files": [
@@ -25,27 +25,26 @@
   "homepage": "https://github.com/mohatt/eslint-config-gatsby-standard",
   "bugs": "https://github.com/mohatt/eslint-config-gatsby-standard/issues",
   "dependencies": {
-    "@babel/core": "^7.13.14",
-    "@babel/eslint-parser": "^7.13.14",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-config-standard": "^16.0.2",
+    "@babel/core": "^7.20.12",
+    "@babel/eslint-parser": "^7.19.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-config-standard": "^16.0.3",
     "eslint-config-standard-jsx": "^10.0.0",
-    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-react": "^7.23.2",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "eslint-plugin-standard": "^4.1.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-graphql": "^4.0.0"
   },
   "devDependencies": {
-    "eslint": "7.25.0",
-    "graphql": "15.5.0"
+    "eslint": "7.32.0",
+    "graphql": "16.8.1"
   },
   "peerDependencies": {
-    "gatsby": "^3.0.0",
-    "prettier": "^2.2.1",
-    "eslint": "^7.25.0"
+    "gatsby": "^5.14.0",
+    "prettier": "^3.6.2",
+    "eslint": "^7.32.0"
   },
   "peerDependenciesMeta": {
     "prettier": {
