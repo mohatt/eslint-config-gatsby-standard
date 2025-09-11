@@ -1,12 +1,14 @@
 {
   "name": "@mohatt/eslint-config-gatsby-standard",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "Yet another eslint config to be used for Gatsby projects",
-  "main": ".eslintrc.json",
+  "main": "index.js",
   "files": [
-    ".eslintrc.json"
+    "index.js",
+    "typescript.js"
   ],
   "scripts": {
+    "format": "prettier -w .",
     "test": "eslint --print-config .eslintrc.json"
   },
   "repository": {
@@ -35,18 +37,26 @@
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-graphql": "^4.0.0"
+    "eslint-plugin-graphql": "^4.0.0",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "@typescript-eslint/parser": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0"
   },
   "devDependencies": {
     "eslint": "7.32.0",
-    "graphql": "16.8.1"
+    "graphql": "16.8.1",
+    "prettier": "^3.6.2"
   },
   "peerDependencies": {
     "gatsby": "^5.14.0",
-    "prettier": "^3.6.2",
-    "eslint": "^7.32.0"
+    "typescript": ">=3.3.1 <5.2.0",
+    "eslint": "^7.32.0",
+    "prettier": "^3.6.2"
   },
   "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    },
     "prettier": {
       "optional": true
     }
