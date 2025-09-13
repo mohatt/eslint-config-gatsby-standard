@@ -19,6 +19,7 @@ module.exports = {
         ignoreRestSiblings: true,
       },
     ],
+    'no-param-reassign': ['error', { props: true, ignorePropertyModificationsFor: ['accu'] }],
     'import/no-webpack-loader-syntax': [0],
     'graphql/template-strings': ['error', { env: 'relay', tagName: 'graphql' }],
     'react/no-children-prop': 'off',
