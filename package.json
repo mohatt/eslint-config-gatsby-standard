@@ -60,5 +60,14 @@
     "prettier": {
       "optional": true
     }
+  },
+  "renovate": {
+    "enabled": true,
+    "extends": [
+      "config:recommended"
+    ],
+    "major": {
+      "enabled": false
+    }
   }
 }
