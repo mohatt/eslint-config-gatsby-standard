@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mohatt/eslint-config-gatsby-standard.git"
+    "url": "git+https://github.com/mohatt/eslint-config-gatsby-standard.git"
   },
   "keywords": [
     "gatsby",
